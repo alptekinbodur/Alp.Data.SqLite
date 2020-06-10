@@ -4,11 +4,11 @@
 SqLite connection and data works
 
 ``Alp.Data.SqLite`` basic usage parametets  
-``bag.ExecuteDataset()``
-``bag.ExecuteNonQuery()``
-``bag.ExecuteReader()``
-``bag.ExecuteScalar()``
-``bag.FillDataset()``
+``ExecuteDataset()``
+``ExecuteNonQuery()``
+``ExecuteReader()``
+``ExecuteScalar()``
+``FillDataset()``
 
 ### Usage Sample
 ----------------------------------------
