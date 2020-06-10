@@ -35,7 +35,7 @@ public class Program
     // insert with parameters
     strSql = "INSERT INTO company (status,name) VALUES (@status,@name);";
     strSql += "SELECT last_insert_rowid();";
-    var par = new SQLite.SQLiteParameter[2];
+    var par = new SQLite.SQLiteParameter[1];
     par[0] = new SQLite.SQLiteParameter("@status", DbType.Int32);
     par[0].Value = 0;
     par[1] = new SQLite.SQLiteParameter("@name", DbType.String, 255);
